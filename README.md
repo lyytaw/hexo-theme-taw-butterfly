@@ -20,8 +20,8 @@ git clone -b master https://github.com/muzaozong/hexo-theme-mzz-butterfly.git th
 theme: mzz-butterfly
 ```
 
->如果你没有pug以及stylus的渲染器，请下载安装： npm install hexo-renderer-pug hexo-renderer-stylus --save or yarn add hexo-renderer-pug hexo-renderer-stylus
+>如果你没有pug以及stylus的渲染器，请下载安装： `npm install hexo-renderer-pug hexo-renderer-stylus --save` 或 `yarn add hexo-renderer-pug hexo-renderer-stylus`
 
 ## 文档
 
-由于完全由butterfly修改而已，可参考[butterfly的文档](https://jerryc.me/posts/21cfbf15)和[melody的文档进行使用。
+由于完全由butterfly修改而来，可参考[butterfly的文档](https://jerryc.me/posts/21cfbf15)和[melody的文档](https://molunerfinn.com/hexo-theme-melody-doc/quick-start.html)来进行使用。
