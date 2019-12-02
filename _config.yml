@@ -9,7 +9,7 @@ menu:
   归档: /archives/ || fa fa-archive
   标签: /tags/ || fa fa-tags
   分类: /categories/ || fa fa-folder-open
-  #  Link: /link/ || fa fa-link
+  # 友链: /link/ || fa fa-link
   关于: /about/ || fa fa-heart
 
 # Favicon
@@ -138,7 +138,7 @@ post_meta:
 
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#字数统计
 wordcount:
-  enable: false
+  enable: true
 
 toc:
   enable: true
@@ -280,17 +280,18 @@ related_post:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: '#858585'
-#   hr_color: "#A4D8FA"
-#   read-mode-bg_color: '#FAF9DE'
-#   inline-code-color: '#F47466'
+theme_color:
+  enable: true
+  #  main: "#49B1F5"
+  main: "#3dd1c6"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: '#858585'
+  hr_color: "#A4D8FA"
+  read-mode-bg_color: '#FAF9DE'
+  inline-code-color: '#F47466'
 
 # 主頁設置
 # 默認top_img全屏，site_info在中間

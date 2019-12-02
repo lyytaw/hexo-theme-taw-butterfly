@@ -1,5 +1,6 @@
 {
   "name": "hexo-theme-melody",
   "version": "2.0.0",
-  "description": "A Hexo Theme: Butterfly"
+  "description": "A Hexo Theme: Butterfly",
+  "dependencies": {}
 }

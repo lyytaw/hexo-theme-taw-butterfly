@@ -317,11 +317,6 @@ $(function () {
       )
 
       var $wrap = $(imgList[i]).wrap($a)
-
-      var alt = imgList[i].alt
-      if (alt) {
-        $wrap.after('<div class="img-alt">' + alt + '</div>')
-      }
     }
 
     $().fancybox({
