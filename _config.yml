@@ -420,7 +420,7 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - Take a walk, and sing a song.
+    - Take a walk&#44; and sing a song.
 
 
 ####    側邊欄    ####

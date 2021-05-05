@@ -40,7 +40,7 @@ if theme.subtitle.enable
       })
       .then(function (data) {
         var sub = '!{theme.subtitle.sub}'.length == 0  ? new Array() : '!{theme.subtitle.sub}'.split(",");
-        var both = sub.unshift(data.hitokoto)  
+        var both = sub.unshift(data.hitokoto)
         var typed = new Typed(".subtitle", {
         strings: sub,
         startDelay: 300,
@@ -81,14 +81,14 @@ if theme.subtitle.enable
         backSpeed: 50
       });
       })
-     
+
   else
     script.
       var typed = new Typed(".subtitle", {
       strings: '!{theme.subtitle.sub}'.split(","),
       startDelay: 300,
       typeSpeed: 100,
-      loop: true,
+      loop: false,
       backSpeed: 50
       });
 
@@ -96,15 +96,15 @@ if !theme.index_top_img_height && !theme.index_site_info_top
   script.
     //首頁fullpage
     function alignContent() {
-      for (var n = $(window).height(), e = document.querySelectorAll(".full_page"), i = 0; i < e.length; i++) 
+      for (var n = $(window).height(), e = document.querySelectorAll(".full_page"), i = 0; i < e.length; i++)
         e[i].style.height = n + "px";
         $("#site-info").each(function () {
           var x = $(this).height();
-          $(this).css("top", (n-x)/2)       
+          $(this).css("top", (n-x)/2)
         })
     }
     alignContent();
-    
+
     $(window).bind("resize", function () {
       alignContent()
     })
