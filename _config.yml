@@ -49,17 +49,17 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/muzaozong
-  fa fa-envelope: mailto:muzaozong@gmail.com
+  fa fa-github: https://github.com/lyytaw
+  fa fa-envelope: mailto:lyytaw@gmail.com
   fa fa-rss: /atom.xml
 
 ####    search    ####
 # Algolia search
 # ---------------
 algolia_search:
-  enable: false
+  enable: true
   hits:
-    per_page: 6
+    per_page: 8
 
   labels:
     input_placeholder: Search for Posts
@@ -92,16 +92,16 @@ katex:
 # baidu_analytics:
 
 #Google Analytics
-google_analytics: UA-93052608-1
+google_analytics: UA-154563829-1
 
 
 # Post info settings
 # ---------------
 # avatar: /img/avatar.png
-avatar: /img/head.jpg
+avatar: /img/header.png
 
 # the banner image of index
-top_img: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
+top_img: https://img.cayun.me/2019-12-16-BeaujolaisRegion_ZH-CN1585928268_1920x1080.jpg
 # 以下鏈接是動態壁紙，每次刷新會更換
 # https://source.unsplash.com/collection/collectionid/1600x900
 # https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
@@ -109,7 +109,7 @@ top_img: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPi
 # https://api.dujin.org/bing/1366.php
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
+default_top_img: https://img.cayun.me/2019-12-16-BeaujolaisRegion_ZH-CN1585928268_1920x1080.jpg
 
 # the default cover of the post
 default_cover: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
@@ -146,7 +146,7 @@ toc:
 
 # auto open the sidebar in 'post'
 auto_open_sidebar:
-  enable: true
+  enable: false
 
 post_copyright:
   enable: true
@@ -227,7 +227,7 @@ footer_copyright:
 
 ICP:
   enable: false
-  url:
+  url: 
   text:
   icon: /img/icp.png
 
@@ -420,7 +420,7 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 不积跬步&#44;无以至千里
+    - Take a walk, and sing a song.
 
 
 ####    側邊欄    ####
