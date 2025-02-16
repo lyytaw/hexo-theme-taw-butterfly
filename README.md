@@ -2,7 +2,7 @@
 
 [预览DEMO](https://www.lyytaw.com/)
 
-改自[hexo主题butterfly](https://github.com/jerryc127/hexo-theme-butterfly)。由于原主题中每篇文章都需要有图片来做相应适配，于是做了相应的修改。
+改自[hexo主题butterfly](https://github.com/jerryc127/hexo-theme-butterfly)。去除了原主题中每篇文章都需要有主图的要求，其他基本没变。
 
 ## 安装
 
